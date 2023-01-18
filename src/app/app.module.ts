@@ -14,7 +14,7 @@ import { ProductsComponent } from './pages/products/products.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { NotFoundComponent } from './pages/not-found/not-found.component';
 import { ProductComponent } from './pages/product/product.component';
-import { httpInterceptorProviders } from './interceptors';
+
 import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
@@ -36,7 +36,7 @@ import { LoginComponent } from './pages/login/login.component';
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [httpInterceptorProviders],
+ providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
